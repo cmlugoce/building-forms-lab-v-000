@@ -8,6 +8,8 @@ class BandsContainer extends Component {
     return(
       <div>
         BandsContainer
+        <BandInput addBand={this.props.addBand} />
+        <Bands bands={this.props.bands} />
       </div>
     )
   }
